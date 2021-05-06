@@ -1,0 +1,220 @@
+﻿.shadow24 {
+    -webkit-box-shadow: 0 1px 3px rgb(36 39 44 / 15%);
+    box-shadow: 0 1px 3px rgb(36 39 44 / 15%);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 15px 20px 20px;
+    background: #fff;
+}
+
+.marginBottom20 {
+    margin-bottom: 12px;
+}
+
+.compareLanding .compareCarsMain h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.compareLanding .compareCarsMain .gs_control {
+    padding-left: 25px;
+}
+
+
+.gs_control {
+    display: inline-block;
+    position: relative;
+    padding-left: 34px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #24272c;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.compareCarsMain .addCarsBox .addCricle {
+    width: 72px;
+    height: 72px;
+    border: 1px dashed #24272c;
+    opacity: .5;
+    -moz-opacity: .5;
+    display: block;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    margin: 30px auto 8px;
+}
+
+    .compareCarsMain .addCarsBox .addCricle:before {
+        content: "";
+        position: absolute;
+        background-color: #24272c;
+        top: 50%;
+        left: 50%;
+        width: 2px;
+        height: 18px;
+        margin-top: -8px;
+    }
+
+    .compareCarsMain .addCarsBox .addCricle:after {
+        content: "";
+        position: absolute;
+        background-color: #24272c;
+        top: 50%;
+        left: 50%;
+        width: 18px;
+        height: 2px;
+        margin-left: -8px;
+    }
+
+.compareCarsMain .addCarsBox .addTitle {
+    font-size: 15px;
+    font-weight: 500;
+    color: #24272c;
+    opacity: .5;
+    -moz-opacity: .5;
+    margin: 8px 0 26px;
+    text-align: center;
+}
+
+.customSelect {
+    position: relative;
+}
+
+.compareCarsMain .addCarsBox .selectBox .inputfield input {
+    border: 0;
+}
+
+.inputfield input[type=date], .inputfield input[type=email], .inputfield input[type=number], .inputfield input[type=tel], .inputfield input[type=text] {
+    background: #fff;
+    -webkit-appearance: none;
+    text-shadow: 0 0 0 #24272c;
+    border: 1px solid rgba(36,39,44,.3);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-text-fill-color: transparent;
+    padding: 0 30px 0 16px;
+    font-size: 16px;
+    height: 48px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.customSelect:after {
+    width: 0;
+    pointer-events: none;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgba(36,39,44,.87);
+    display: block;
+    margin: auto;
+    position: absolute;
+    right: 15px;
+    top: 22px;
+    content: "";
+}
+
+.compareCarsMain .addCarsBox .selectBox .inputfield:first-child {
+    border-bottom: 1px solid rgba(36,39,44,.15);
+}
+
+.compareLanding .inputdisabled input[type=text]:disabled, .compareLanding .inputdisabled:after {
+    opacity: .3;
+    -moz-opacity: .3;
+}
+.compareCarsMain ul.addcarsmobi > li.disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+.compareCarsMain .addCarsBox .selectBox .inputfield input {
+    border: 0;
+}
+.addCarsBox {
+    border: 1px solid rgba(36,39,44,.15);
+}
+.marginBottom20 {
+    margin-bottom: 20px;
+}
+.button {
+    background: #f75d34;
+    color: #fff;
+    font-size: 17px;
+    line-height: 47px;
+    height: 48px;
+    width: 100%;
+    border: 0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    max-width: 320px;
+    margin: 24px auto 20px;
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .marginBottom20 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .shadow24 {
+        padding: 19px 24px 21px;
+    }
+
+    .compareLanding .compareCarsMain h1 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+
+    .gsc_row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .compareLanding .compareCarsMain ul.addcarsmobi {
+        box-shadow: none;
+    }
+
+        .compareLanding .compareCarsMain ul.addcarsmobi .padding0 {
+            padding: 0;
+        }
+
+        .compareLanding .compareCarsMain ul.addcarsmobi .addCarsBox {
+            padding: 89px 16px 72px;
+        }
+
+    .compareLanding .compareCarsMain .button {
+        margin: 24px auto 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .compareLanding .compareCarsMain ul.addcarsmobi li:nth-child(n+1) {
+        display: block;
+    }
+
+    .compareLanding .compareCarsMain ul.addcarsmobi .addCarsBox {
+        padding: 16px;
+    }
+
+    .compareCarsMain .addCarsBox .addCricle {
+        margin-top: 10px;
+    }
+
+    .compareLanding .compareCarsMain ul .addCarsBox .selectBox {
+        display: block;
+    }
+
+    .compareLanding .compareCarsMain ul .addCarsBox {
+        border: 1px solid rgba(36,39,44,.15);
+    }
+
+    .compareLanding .compareCarsMain ul.addcarsmobi .padding0 {
+        padding: 0 10px;
+    }
+}
